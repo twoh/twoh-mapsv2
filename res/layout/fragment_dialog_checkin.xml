@@ -15,37 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/checkin_hint_nama"
-        />
-    <EditText
-		android:id="@+id/et_dob" 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/checkin_hint_dob" 
-        />        
-    <EditText
-		android:id="@+id/et_sex" 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/checkin_hint_sex" 
-        />
-    <EditText
-		android:id="@+id/et_group" 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/checkin_hint_group" 
-        />
-    <EditText
-		android:id="@+id/et_info" 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/checkin_hint_info" 
-        />
-    <EditText
-		android:id="@+id/et_info2" 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/checkin_hint_info" 
-        />
+        />    
     
     <LinearLayout
         android:layout_width="match_parent"

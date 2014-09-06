@@ -1274,9 +1274,10 @@ containing a value of this type.
         public static final int ic_plusone_small_off_client=0x7f020072;
         public static final int ic_plusone_standard_off_client=0x7f020073;
         public static final int ic_plusone_tall_off_client=0x7f020074;
+        public static final int witcher_triss=0x7f020075;
     }
     public static final class id {
-        public static final int NamaProgram=0x7f060056;
+        public static final int NamaProgram=0x7f06004c;
         public static final int action_bar=0x7f06001f;
         public static final int action_bar_activity_content=0x7f060018;
         public static final int action_bar_container=0x7f06001e;
@@ -1288,18 +1289,18 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f060019;
         public static final int action_menu_presenter=0x7f06001a;
         public static final int action_mode_close_button=0x7f060027;
-        public static final int action_settings=0x7f06005b;
+        public static final int action_settings=0x7f060051;
         public static final int activity_chooser_view_content=0x7f060028;
         public static final int always=0x7f06000f;
         public static final int beginning=0x7f060014;
-        public static final int btAbout=0x7f06005a;
-        public static final int btCheckIn=0x7f060059;
-        public static final int btGetLocation=0x7f060057;
-        public static final int btViewOnMap=0x7f060058;
+        public static final int btAbout=0x7f060050;
+        public static final int btCheckIn=0x7f06004f;
+        public static final int btGetLocation=0x7f06004d;
+        public static final int btViewOnMap=0x7f06004e;
         public static final int bt_checkin=0x7f060041;
-        public static final int bt_checkin_cancel=0x7f06004d;
-        public static final int bt_checkin_ok=0x7f060055;
-        public static final int bt_checkin_save=0x7f06004e;
+        public static final int bt_checkin_cancel=0x7f060048;
+        public static final int bt_checkin_ok=0x7f06004b;
+        public static final int bt_checkin_save=0x7f060049;
         public static final int bt_delete=0x7f060043;
         public static final int bt_showmap=0x7f060042;
         public static final int checkbox=0x7f060030;
@@ -1311,12 +1312,7 @@ containing a value of this type.
         public static final int dropdown=0x7f060013;
         public static final int edit_query=0x7f060033;
         public static final int end=0x7f060016;
-        public static final int et_dob=0x7f060048;
-        public static final int et_group=0x7f06004a;
-        public static final int et_info=0x7f06004b;
-        public static final int et_info2=0x7f06004c;
         public static final int et_nama=0x7f060047;
-        public static final int et_sex=0x7f060049;
         public static final int expand_activities_button=0x7f060029;
         public static final int expanded_menu=0x7f06002f;
         public static final int group=0x7f060040;
@@ -1358,13 +1354,8 @@ containing a value of this type.
         public static final int textcheckin=0x7f06003f;
         public static final int title=0x7f06002e;
         public static final int top_action_bar=0x7f060023;
-        public static final int tv_dob=0x7f060050;
-        public static final int tv_group=0x7f060052;
-        public static final int tv_info=0x7f060053;
-        public static final int tv_info2=0x7f060054;
         public static final int tv_koordinat=0x7f060046;
-        public static final int tv_nama=0x7f06004f;
-        public static final int tv_sex=0x7f060051;
+        public static final int tv_nama=0x7f06004a;
         public static final int up=0x7f060024;
         public static final int useLogo=0x7f060007;
         public static final int withText=0x7f060010;
@@ -1426,7 +1417,8 @@ containing a value of this type.
         public static final int fragment_dialog_checkin=0x7f03001b;
         public static final int fragment_dialog_datashow=0x7f03001c;
         public static final int fragment_main=0x7f03001d;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
+        public static final int layout_checkin_item=0x7f03001e;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;

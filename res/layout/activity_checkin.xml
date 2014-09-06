@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-       
+    android:background="@drawable/witcher_triss"
     > 
     <TextView
         android:id="@+id/textcheckin"
@@ -11,7 +11,7 @@
        	android:layout_height="wrap_content"
        	android:text="check in di sini?"
        	android:layout_gravity="center_horizontal"
-       	android:background="#0000ff"
+       	android:background="#ccc"
        	/>
 <LinearLayout
     android:id="@+id/group"

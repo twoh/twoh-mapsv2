@@ -9,7 +9,6 @@ import android.app.Dialog;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
@@ -32,7 +31,7 @@ public class CheckInActivity extends ListActivity implements OnItemLongClickList
 	private ArrayList<DBLokasi> values;
 	private ArrayAdapter<DBLokasi> adapter;
 	ListView lv;
-	private static final String TAG = CheckInActivity.class.getSimpleName();
+	public static final String TAG = CheckInActivity.class.getSimpleName();
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {	
@@ -70,12 +69,7 @@ public class CheckInActivity extends ListActivity implements OnItemLongClickList
 				TextView text = (TextView)dialog.findViewById(R.id.tv_koordinat);
 				Button btSave =  (Button) dialog.findViewById(R.id.bt_checkin_save);
 				Button btCancel = (Button) dialog.findViewById(R.id.bt_checkin_cancel);
-				final EditText etNama = (EditText) dialog.findViewById(R.id.et_nama);
-				final EditText etGroup = (EditText) dialog.findViewById(R.id.et_group);
-				final EditText etSex = (EditText) dialog.findViewById(R.id.et_sex);
-				final EditText etDoB = (EditText) dialog.findViewById(R.id.et_dob);
-				final EditText etInfo1 = (EditText) dialog.findViewById(R.id.et_info);
-				final EditText etInfo2 = (EditText) dialog.findViewById(R.id.et_info2);
+				final EditText etNama = (EditText) dialog.findViewById(R.id.et_nama);				
 				text.setText("Masukkan data check-in di koordinat ("+lat+","+lng+") : ");
 				
 				btCancel.setOnClickListener(new OnClickListener() {					
@@ -94,12 +88,7 @@ public class CheckInActivity extends ListActivity implements OnItemLongClickList
 						lokasiTemp.setLat(lat+"");
 						lokasiTemp.setLng(lng+"");
 						
-						lokasiTemp.setNama(etNama.getText().toString());
-						lokasiTemp.setGroup(etGroup.getText().toString());
-						lokasiTemp.setSex(etSex.getText().toString());
-						lokasiTemp.setDob(etDoB.getText().toString());
-						lokasiTemp.setInfo1(etInfo1.getText().toString());
-						lokasiTemp.setInfo2(etInfo2.getText().toString());
+						lokasiTemp.setNama(etNama.getText().toString());						
 						
 						lokasi = dataSource.createLokasi(lokasiTemp);
 						if(lokasi!=null)
@@ -135,10 +124,9 @@ public class CheckInActivity extends ListActivity implements OnItemLongClickList
 		
 		values = dataSource.getAllLokasi();
 		
-		adapter = new ArrayAdapter<DBLokasi>(this,
-    	        android.R.layout.simple_list_item_1, values);
+		adapter = new ArrayAdapter<DBLokasi>(this,R.layout.layout_checkin_item, values);
 		setListAdapter(adapter);
-		lv = getListView();
+		lv = getListView();		
 		lv.setOnItemLongClickListener(new OnItemLongClickListener() {
 
 			@Override

@@ -14,8 +14,13 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import android.app.Dialog;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MapsActivity extends FragmentActivity{
@@ -54,40 +59,31 @@ public class MapsActivity extends FragmentActivity{
 			{
 				LatLng latLng = new LatLng(lokasi.getLatD(), lokasi.getLngD());
 				map.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 16));
-				map.addMarker(new MarkerOptions().position(latLng).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN)));
+				map.addMarker(new MarkerOptions().position(latLng).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN)).title(lokasi.getNama()));
 			}
 			
 			map.setOnMarkerClickListener(new OnMarkerClickListener() {
 				
 				@Override
-				public boolean onMarkerClick(Marker marker) {
-					/*DBLokasi lokasiMarker = marker.getData();
+				public boolean onMarkerClick(Marker marker) {					
 					final Dialog dialog = new Dialog(MapsActivity.this);
 					dialog.setTitle("Checkin Data :");				 
 					dialog.setContentView(R.layout.fragment_dialog_datashow);
 					TextView tvNama = (TextView) dialog.findViewById(R.id.tv_nama);
-					TextView tvGroup = (TextView) dialog.findViewById(R.id.tv_group);
-					TextView tvSex = (TextView) dialog.findViewById(R.id.tv_sex);
-					TextView tvDob = (TextView) dialog.findViewById(R.id.tv_dob);
-					TextView tvInfo1 = (TextView) dialog.findViewById(R.id.tv_info);
-					TextView tvInfo2 = (TextView) dialog.findViewById(R.id.tv_info2);
+					TextView tvKoordinat = (TextView) dialog.findViewById(R.id.tv_koordinat);
 					Button btOK = (Button) dialog.findViewById(R.id.bt_checkin_ok);
 					
-					tvNama.setText(String.format(getResources().getString(R.string.checkin_label_nama), lokasiMarker.getNama()));
-					tvGroup.setText(String.format(getResources().getString(R.string.checkin_label_group), lokasiMarker.getGroup()));
-					tvSex.setText(String.format(getResources().getString(R.string.checkin_label_sex), lokasiMarker.getSex()));
-					tvDob.setText(String.format(getResources().getString(R.string.checkin_label_dob), lokasiMarker.getDob()));
-					tvInfo1.setText(String.format(getResources().getString(R.string.checkin_label_info), lokasiMarker.getInfo1()));
-					tvInfo2.setText(String.format(getResources().getString(R.string.checkin_label_info), lokasiMarker.getInfo2()));
-					
-					btOK.setOnClickListener(new OnClickListener() {						
+					tvNama.setText(String.format(getResources().getString(R.string.checkin_label_nama), marker.getTitle()));					
+					tvKoordinat.setText(marker.getPosition().latitude+","+marker.getPosition().longitude);
+					btOK.setOnClickListener(new OnClickListener() {
+						
 						@Override
 						public void onClick(View v) {
 							dialog.cancel();
 							
 						}
 					});
-					dialog.show();*/
+					dialog.show();
 					
 					return false;
 				}
@@ -111,27 +107,17 @@ public class MapsActivity extends FragmentActivity{
 				
 				@Override
 				public boolean onMarkerClick(Marker marker) {
-					/*
-					DBLokasi lokasiMarker = marker.getData();
 					final Dialog dialog = new Dialog(MapsActivity.this);
 					dialog.setTitle("Checkin Data :");				 
 					dialog.setContentView(R.layout.fragment_dialog_datashow);
 					TextView tvNama = (TextView) dialog.findViewById(R.id.tv_nama);
-					TextView tvGroup = (TextView) dialog.findViewById(R.id.tv_group);
-					TextView tvSex = (TextView) dialog.findViewById(R.id.tv_sex);
-					TextView tvDob = (TextView) dialog.findViewById(R.id.tv_dob);
-					TextView tvInfo1 = (TextView) dialog.findViewById(R.id.tv_info);
-					TextView tvInfo2 = (TextView) dialog.findViewById(R.id.tv_info2);
+					TextView tvKoordinat = (TextView) dialog.findViewById(R.id.tv_koordinat);
 					Button btOK = (Button) dialog.findViewById(R.id.bt_checkin_ok);
 					
-					tvNama.setText(String.format(getResources().getString(R.string.checkin_label_nama), lokasiMarker.getNama()));
-					tvGroup.setText(String.format(getResources().getString(R.string.checkin_label_group), lokasiMarker.getGroup()));
-					tvSex.setText(String.format(getResources().getString(R.string.checkin_label_sex), lokasiMarker.getSex()));
-					tvDob.setText(String.format(getResources().getString(R.string.checkin_label_dob), lokasiMarker.getDob()));
-					tvInfo1.setText(String.format(getResources().getString(R.string.checkin_label_info), lokasiMarker.getInfo1()));
-					tvInfo2.setText(String.format(getResources().getString(R.string.checkin_label_info), lokasiMarker.getInfo2()));
-					
-					btOK.setOnClickListener(new OnClickListener() {						
+					tvNama.setText(String.format(getResources().getString(R.string.checkin_label_nama), marker.getTitle()));					
+					tvKoordinat.setText(marker.getPosition().latitude+","+marker.getPosition().longitude);
+					btOK.setOnClickListener(new OnClickListener() {
+						
 						@Override
 						public void onClick(View v) {
 							dialog.cancel();
@@ -139,7 +125,6 @@ public class MapsActivity extends FragmentActivity{
 						}
 					});
 					dialog.show();
-					*/
 					return false;
 				}
 			});

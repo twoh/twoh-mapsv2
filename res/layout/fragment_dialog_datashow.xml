@@ -15,38 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/checkin_hint_nama"
-        />
-    <TextView
-		android:id="@+id/tv_dob" 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/checkin_hint_dob" 
-        />        
-    <TextView
-		android:id="@+id/tv_sex" 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/checkin_hint_sex" 
-        />
-    <TextView
-		android:id="@+id/tv_group" 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/checkin_hint_group" 
-        />
-    <TextView
-		android:id="@+id/tv_info" 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/checkin_hint_info" 
-        />
-    <TextView
-		android:id="@+id/tv_info2" 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/checkin_hint_info" 
-        />
-    
+        />             
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" 

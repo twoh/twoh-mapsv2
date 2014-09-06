@@ -12,12 +12,7 @@ public class DBLokasi implements Serializable{
 	private long id;
 	private String lat;
 	private String lng;
-	private String nama;
-	private String dob;
-	private String sex;
-	private String group;
-	private String info1;
-	private String info2;
+	private String nama;	
 	private double latD;
 	private double lngD;
 	
@@ -37,7 +32,7 @@ public class DBLokasi implements Serializable{
 	  // Will be used by the ArrayAdapter in the ListView
 	  @Override
 	  public String toString() {
-	    return "Lokasi ke "+id+" ("+lat+" , "+lng+")";
+	    return "("+id+")"+" Nama : "+nama+" "+" ("+lat+" , "+lng+")";
 	  }
 
 	public String getLat() {
@@ -67,46 +62,6 @@ public class DBLokasi implements Serializable{
 
 	public void setNama(String nama) {
 		this.nama = nama;
-	}
-
-	public String getDob() {
-		return dob;
-	}
-
-	public void setDob(String dob) {
-		this.dob = dob;
-	}
-
-	public String getSex() {
-		return sex;
-	}
-
-	public void setSex(String sex) {
-		this.sex = sex;
-	}
-
-	public String getGroup() {
-		return group;
-	}
-
-	public void setGroup(String group) {
-		this.group = group;
-	}
-
-	public String getInfo1() {
-		return info1;
-	}
-
-	public void setInfo1(String info1) {
-		this.info1 = info1;
-	}
-
-	public String getInfo2() {
-		return info2;
-	}
-
-	public void setInfo2(String info2) {
-		this.info2 = info2;
 	}
 
 	public double getLatD() {

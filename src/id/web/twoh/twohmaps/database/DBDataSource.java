@@ -9,7 +9,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
-import android.util.Log;
 
 public class DBDataSource {
 
@@ -19,7 +18,7 @@ public class DBDataSource {
   
   // Ambil konstanta
   private String[] allColumns = { DBMapsHelper.COLUMN_ID,
-      DBMapsHelper.COLUMN_LAT, DBMapsHelper.COLUMN_LONG, DBMapsHelper.COLUMN_NAMA,DBMapsHelper.COLUMN_SEX, DBMapsHelper.COLUMN_DOB,DBMapsHelper.COLUMN_GROUP,DBMapsHelper.COLUMN_INFO_1,DBMapsHelper.COLUMN_INFO_2 };
+      DBMapsHelper.COLUMN_LAT, DBMapsHelper.COLUMN_LONG, DBMapsHelper.COLUMN_NAMA };
   
   // Menggunakan DBMapsHelper yang diiinisialisasi pada konstruktor 
   public DBDataSource(Context context) {
@@ -39,13 +38,8 @@ public class DBDataSource {
   public DBLokasi createLokasi(DBLokasi lokasi) {
     ContentValues values = new ContentValues();    
     values.put(DBMapsHelper.COLUMN_LAT, lokasi.getLat());
-    values.put(DBMapsHelper.COLUMN_LONG, lokasi.getLng());
-    values.put(DBMapsHelper.COLUMN_GROUP, lokasi.getGroup());
-    values.put(DBMapsHelper.COLUMN_DOB, lokasi.getDob());
-    values.put(DBMapsHelper.COLUMN_NAMA, lokasi.getNama());
-    values.put(DBMapsHelper.COLUMN_SEX, lokasi.getSex());
-    values.put(DBMapsHelper.COLUMN_INFO_1, lokasi.getInfo1());
-    values.put(DBMapsHelper.COLUMN_INFO_2, lokasi.getInfo2());
+    values.put(DBMapsHelper.COLUMN_LONG, lokasi.getLng());    
+    values.put(DBMapsHelper.COLUMN_NAMA, lokasi.getNama());    
     long insertId = database.insert(DBMapsHelper.TABLE_NAME, null,
         values);
     Cursor cursor = database.query(DBMapsHelper.TABLE_NAME,
@@ -66,6 +60,7 @@ public class DBDataSource {
         + " = " + id, null);
   }
   
+  // Method yang berfungsi untuk menghapus semua data lokasi yang tersimpan
   public void deleteAllLokasi()
   {
 	  database.execSQL("DELETE FROM "+ DBMapsHelper.TABLE_NAME);
@@ -89,6 +84,7 @@ public class DBDataSource {
     return daftarLokasi;
   }
 
+  // method yang berfungsi untuk mengambil data lokasi baru berdasarkan ID
   public DBLokasi getLokasi(int id)
   {
 	  DBLokasi lokasi = new DBLokasi();
@@ -104,17 +100,12 @@ public class DBDataSource {
   private DBLokasi cursorToLokasi(Cursor cursor) {
 	  
 	  DBLokasi lokasi = new DBLokasi();
-	  Log.v("info", "The getLONG "+cursor.getLong(0));
-      Log.v("info", "The setLatLng "+cursor.getString(1)+","+cursor.getString(2)+cursor.getString(3)+cursor.getString(4)+cursor.getString(5)+cursor.getString(6)+cursor.getString(7));
+	  //Log.v("info", "The getLONG "+cursor.getLong(0));
+      //Log.v("info", "The setLatLng "+cursor.getString(1)+","+cursor.getString(2)+cursor.getString(3)+cursor.getString(4)+cursor.getString(5)+cursor.getString(6)+cursor.getString(7));
 	  lokasi.setId(cursor.getLong(0));
 	  lokasi.setLat(cursor.getString(1));
 	  lokasi.setLng(cursor.getString(2));
-	  lokasi.setNama(cursor.getString(3));
-	  lokasi.setSex(cursor.getString(4));
-	  lokasi.setDob(cursor.getString(5));
-	  lokasi.setGroup(cursor.getString(6));
-	  lokasi.setInfo1(cursor.getString(7));
-	  lokasi.setInfo2(cursor.getString(8));
+	  lokasi.setNama(cursor.getString(3));	  
 	  return lokasi;
   }
 } 
