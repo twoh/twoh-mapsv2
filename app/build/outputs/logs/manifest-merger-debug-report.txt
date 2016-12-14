@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:2:1-57:12
+	package
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml
+permission#id.web.twoh.twohmaps.permission.MAPS_RECEIVE
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:5:5-7:47
+	android:protectionLevel
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:7:9-44
+	android:name
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:6:9-68
+uses-permission#id.web.twoh.www.maps.permission.MAPS_RECEIVE
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:9:5-84
+	android:name
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:9:22-81
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:13:5-98
+	android:name
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:13:22-95
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:18:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:21:5-23:35
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:22:9-41
+	android:required
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:23:9-32
+uses-sdk
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:26:5-28:41
+MERGED from [com.android.support:appcompat-v7:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:3:5-42
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:28:9-38
+		INJECTED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:27:9-35
+		INJECTED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:30:5-54:19
+MERGED from [com.android.support:appcompat-v7:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:4:5-19
+	android:label
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:34:9-41
+	android:allowBackup
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:32:9-35
+	android:icon
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:33:9-45
+	android:theme
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:31:9-47
+activity#id.web.twoh.twohmaps.MainActivity
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:35:9-43:20
+	android:label
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:37:13-45
+	android:name
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:36:13-61
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:41:27-74
+activity#id.web.twoh.twohmaps.MapsActivity
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:44:9-46:57
+	android:label
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:46:13-45
+	android:name
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:45:13-61
+activity#id.web.twoh.twohmaps.CheckInActivity
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:47:9-49:57
+	android:label
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:49:13-45
+	android:name
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:48:13-64
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:51:9-53:71
+	android:value
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:53:13-68
+	android:name
+		ADDED from /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/src/main/AndroidManifest.xml:52:13-62
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:20-65

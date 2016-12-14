@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/cast_album_art_placeholder_large.png",
+        "source": "/Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/res/drawable-nodpi-v4/cast_album_art_placeholder_large.png"
+    },
+    {
+        "merged": "/Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/cast_mini_controller_img_placeholder.png",
+        "source": "/Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/res/drawable-nodpi-v4/cast_mini_controller_img_placeholder.png"
+    },
+    {
+        "merged": "/Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/cast_album_art_placeholder.png",
+        "source": "/Users/Herdi_WORK/Workspace/tokopedia/android_tokopedia/release_toped197twoh/twoh-mapsv22/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.8.0/res/drawable-nodpi-v4/cast_album_art_placeholder.png"
+    }
+]
